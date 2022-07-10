@@ -1,7 +1,4 @@
-from logging.handlers import SYSLOG_UDP_PORT
 import math
-from sre_constants import SRE_FLAG_DEBUG
-from turtle import title
 from flask import Flask, redirect, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail
